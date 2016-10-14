@@ -1,0 +1,174 @@
+body {
+	background-image: url(images/bg.png);
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+    font-family: arial,serif;
+    font-size: 35px;
+    margin: 80px 0 40px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.read-more {
+    background: #222;
+    padding: 10px 50px;
+    -webkit-box-shadow: 0 5px 6px #eee;
+	-moz-box-shadow: 0 5px 6px #eee;
+	box-shadow: 0 5px 6px #eee;
+}
+.read-more:before {
+    content: "<<";
+    color: #fff;
+}
+.content {
+    max-width: 500px;
+    margin: 0 auto 0;
+}
+/*
+* Social Media Button
+*/
+.btn_a {
+width:210px;
+overflow:hidden;
+display:inline-block;
+white-space:nowrap;
+vertical-align:baseline;
+cursor:pointer;
+background:#222;
+position:relative;
+-moz-transition:all .4s ease;
+-webkit-transition:all .4s ease;
+transition:all .4s ease;
+-moz-box-shadow:0 0 1px #fff inset;
+-webkit-box-shadow:0 0 1px #fff inset;
+box-shadow:0 0 1px #fff inset;
+margin:0 10px 10px 0;
+}
+
+.btn_a:hover {
+-webkit-opacity:0.8;
+-moz-opacity:0.8;
+opacity:0.8;
+}
+
+.btn_a span {
+display:inline-block;
+margin:15px;
+}
+
+.btn_a i {
+width:30px;
+height:30px;
+background:rgba(255,255,0,0.5);
+line-height:30px;
+text-align:center;
+border-radius:50%;
+position:relative;
+top:5px;
+margin:0 10px 20px 0;
+}
+
+.btn_a span:before {
+width:5px;
+position:absolute;
+color:red;
+content:"";
+border:6px solid #eee;
+right:5px;
+top:0;
+}
+
+.btn_a span:after {
+content:"";
+border-bottom:8px solid transparent;
+border-left:8px solid #eee;
+border-right:9px solid #eee;
+position:absolute;
+top:12px;
+right:5px;
+}
+
+.btn_a span > span:before,.btn_a span > span:after {
+content:none;
+}
+
+.btn_a span > span {
+font-family:verdana;
+font-size:13px;
+overflow:hidden;
+color:#aaa;
+position:relative;
+top:-3px;
+margin:0;
+}
+
+.btn_a p {
+font-size:22px;
+font-family:verdana;
+margin:-30px 0 0 42px;
+}
+
+.btn_a.facebook {
+background:#3b5998;
+}
+
+.btn_a.facebook i {
+background:#fff;
+color:#3b5998;
+}
+
+.btn_a.twitter {
+background:#00aced;
+}
+
+.btn_a.twitter i {
+background:#fff;
+color:#00aced;
+}
+
+.btn_a.google-plus {
+background:#dd4b39;
+}
+
+.btn_a.google-plus i {
+background:#fff;
+color:#dd4b39;
+}
+
+.btn_a.pinterest {
+background:#cb2027;
+}
+
+.btn_a.pinterest i {
+background:#fff;
+color:#cb2027;
+}
+
+.btn_a.instagram {
+background:#517fa4;
+}
+
+.btn_a.instagram i {
+background:#fff;
+color:#517fa4;
+}
+
+.btn_a.youtube {
+background:#b00;
+}
+
+.btn_a.youtube i {
+background:#fff;
+color:#b00;
+}
+
+.btn_a.facebook span > span,.btn_a.twitter span > span,.btn_a.google-plus span > span,.btn_a.pinterest span > span,.btn_a.instagram span > span,.btn_a.youtube span > span {
+color:#fff;
+}
